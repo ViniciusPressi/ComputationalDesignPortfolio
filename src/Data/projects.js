@@ -1,4 +1,8 @@
-import Bairru1 from "../assets/images/Bairru1.png";
+import Bairru1 from "../assets/images/VerticalAnalysis/Bairru1.png";
+import BAIRRU2 from "../assets/images/VerticalAnalysis/BAIRRU2.png";
+import BAIRRU3 from "../assets/images/VerticalAnalysis/BAIRRU3.png";
+import BAIRRU4 from "../assets/images/VerticalAnalysis/BAIRRU4.png";
+import BAIRRU5 from "../assets/images/VerticalAnalysis/BAIRRU5.png";
 import UrbanTools1 from "../assets/images/UrbanTools/UrbanTools1.png";
 import UrbanTools2 from "../assets/images/UrbanTools/UrbanTools2.png";
 import UrbiaVerticalCover from "../assets/images/VerticalPlugin/UrbiaVerticalCover.png";
@@ -11,6 +15,7 @@ import EVU_TOPO from "../assets/images/PluginUrbia/EVU_TOPO.png";
 import EVU_HEAT from "../assets/images/PluginUrbia/EVU_HEAT.png";
 import EVU_AREAS from "../assets/images/PluginUrbia/EVU_AREAS.png";
 import EVU_FASES from "../assets/images/PluginUrbia/EVU_FASES.png";
+import evuCanvas from "../assets/images/PluginUrbia/evuCanvas.png";
 
 export const projects = [
   {
@@ -48,7 +53,7 @@ export const projects = [
       "Grasshopper/C# Component Architecture For Reusable Urban Design Automation",
     tools: ["Rhino", "Grasshopper", "C#", "JavaScript"],
     videos: ["https://player.vimeo.com/video/1171308997"],
-    images: [EVU_DEFAULT, EVU_TOPO, EVU_HEAT, EVU_AREAS, EVU_FASES],
+    images: [EVU_DEFAULT, EVU_TOPO, EVU_HEAT, EVU_AREAS, EVU_FASES, evuCanvas],
     tags: ["Grasshopper", "C#", "Urban Design"],
   },
   {
@@ -122,7 +127,7 @@ export const projects = [
       "Zoning-Driven Parametric Massing, Density Metrics, And Scenario Comparison",
     tools: ["Rhino", "Grasshopper", "RhinoCommon", "JavaScript"],
     videos: ["https://player.vimeo.com/video/1171373744"],
-    images: [Bairru1],
+    images: [Bairru1, BAIRRU2, BAIRRU3, BAIRRU4, BAIRRU5],
     tags: ["JavaScript", "Three.js", "Zoning Analysis"],
   },
   {
