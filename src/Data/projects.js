@@ -57,42 +57,6 @@ export const projects = [
     tags: ["Grasshopper", "C#", "Urban Design"],
   },
   {
-    /*------------- URBAN TOOLS------------- */
-    id: "urban-tools",
-    title: "Urban Tools",
-    cover: UrbanTools2,
-    context:
-      "Urban Tools is a web prototype developed for a public innovation program in Lucas do Rio Verde, Brazil, to support early-stage street design decisions.",
-    challenge:
-      "How can urban street configurations be tested quickly to create safer and more attractive streets while ensuring pedestrian safety?",
-    approach: [
-      "We created a collaborative online prototype that allowed the city's urban design team to quickly and intuitively test street configurations.",
-      "The goal was to provide an accessible solution for non-technical users.",
-    ],
-    myContribution: [
-      "Created a Grasshopper script prototype to test geometric operation logic.",
-      "Converted geometric operation logic into web-based functions using React and Three.js.",
-      "Developed the interface and menu system so users could edit parameters and manage street design operations such as street creation, editing, and deletion.",
-    ],
-    description: [
-      "Urban Tools is a prototype of an online platform developed for a public innovation program in the city of Lucas do Rio Verde, Brazil. The project consists of a digital streets editor designed to support the municipal urban planning department during early-stage design processes.",
-      "The platform provides a simple and intuitive interface that enables users to create and edit street sections while prioritizing pedestrian experience, active mobility, and urban safety. By allowing rapid testing of multiple street configurations, the tool supports data-informed decision-making during urban concept development.",
-      "Once a design is finalized, users can export a DXF file directly from the platform, enabling further technical development in professional design software such as AutoCAD or Rhinoceros.",
-      "The project originated as a parametric Grasshopper script and was later fully translated into an interactive web application, transforming computational design logic into an accessible tool for non-technical stakeholders.",
-    ],
-    outcomes: [
-      "We delivered a prototype to the municipality of Lucas do Rio Verde, where the team tested and approved the solution.",
-      "The project was also presented at a city innovation event, receiving positive feedback and jury approval.",
-    ],
-    role: "Computational Designer & Web Tool Developer",
-    focus:
-      "Translating Parametric Street-Design Logic Into An Interactive Web Workflow",
-    tools: ["Rhino", "Grasshopper", "React", "Three.js", "JavaScript"],
-    videos: ["https://player.vimeo.com/video/1171875839"],
-    images: [UrbanTools2, UrbanTools1],
-    tags: ["JavaScript", "Three.js", "Urban Planning"],
-  },
-  {
     /*------------- BAIRRU------------- */
     id: "site-analysis",
     title: "Site Volumetric Analysis",
@@ -172,5 +136,41 @@ export const projects = [
       StepedTower,
     ],
     tags: ["Rhino", "Grasshopper", "JavaScript", "Zoning Analysis"],
+  },
+  {
+    /*------------- URBAN TOOLS------------- */
+    id: "urban-tools",
+    title: "Urban Tools",
+    cover: UrbanTools2,
+    context:
+      "Urban Tools is a web prototype developed for a public innovation program in Lucas do Rio Verde, Brazil, to support early-stage street design decisions.",
+    challenge:
+      "How can urban street configurations be tested quickly to create safer and more attractive streets while ensuring pedestrian safety?",
+    approach: [
+      "We created a collaborative online prototype that allowed the city's urban design team to quickly and intuitively test street configurations.",
+      "The goal was to provide an accessible solution for non-technical users.",
+    ],
+    myContribution: [
+      "Created a Grasshopper script prototype to test geometric operation logic.",
+      "Converted geometric operation logic into web-based functions using React and Three.js.",
+      "Developed the interface and menu system so users could edit parameters and manage street design operations such as street creation, editing, and deletion.",
+    ],
+    description: [
+      "Urban Tools is a prototype of an online platform developed for a public innovation program in the city of Lucas do Rio Verde, Brazil. The project consists of a digital streets editor designed to support the municipal urban planning department during early-stage design processes.",
+      "The platform provides a simple and intuitive interface that enables users to create and edit street sections while prioritizing pedestrian experience, active mobility, and urban safety. By allowing rapid testing of multiple street configurations, the tool supports data-informed decision-making during urban concept development.",
+      "Once a design is finalized, users can export a DXF file directly from the platform, enabling further technical development in professional design software such as AutoCAD or Rhinoceros.",
+      "The project originated as a parametric Grasshopper script and was later fully translated into an interactive web application, transforming computational design logic into an accessible tool for non-technical stakeholders.",
+    ],
+    outcomes: [
+      "We delivered a prototype to the municipality of Lucas do Rio Verde, where the team tested and approved the solution.",
+      "The project was also presented at a city innovation event, receiving positive feedback and jury approval.",
+    ],
+    role: "Computational Designer & Web Tool Developer",
+    focus:
+      "Translating Parametric Street-Design Logic Into An Interactive Web Workflow",
+    tools: ["Rhino", "Grasshopper", "React", "Three.js", "JavaScript"],
+    videos: ["https://player.vimeo.com/video/1171875839"],
+    images: [UrbanTools2, UrbanTools1],
+    tags: ["JavaScript", "Three.js", "Urban Planning"],
   },
 ];
